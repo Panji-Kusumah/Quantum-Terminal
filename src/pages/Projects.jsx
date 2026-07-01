@@ -19,7 +19,7 @@ const projects = [
         desc: "A RESTful backend service built with Express.js, featuring authentication, filtering, search functionality, and structured API responses for movie data management.",
         tags: ["NODE.JS", "EXPRESS", "MYSQL"],
         repo: "Panji-Kusumah/Movie_API",
-        demoUrl: "quantum-terminal-puce.vercel.app"
+        demoUrl: "https://quantum-terminal-puce.vercel.app"
     },
     {
         id: "quantum-terminal",
