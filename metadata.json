@@ -1,0 +1,6 @@
+{
+  "name": "ROOT@PORTFOLIO:~#",
+  "description": "A cyberpunk brutalism portfolio simulating a terminal environment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
