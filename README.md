@@ -1,4 +1,4 @@
-# 🚀 Terminal Portfolio
+# Quantum-Terminal
 
 A hacker-themed full-stack developer portfolio featuring a Linux-inspired terminal interface, interactive CLI commands, project showcases, smooth animations, and a contact system powered by Node.js.
 
