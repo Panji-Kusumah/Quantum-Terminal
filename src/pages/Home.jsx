@@ -363,7 +363,6 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-
                     {/* Terminal Playground */}
                     <div className="border border-[#30363d] bg-[#0d1117] flex flex-col h-64 md:h-80 relative font-jetbrains shadow-[0_0_20px_rgba(0,0,0,0.5)]">
                         <div className="bg-[#161b22] border-b border-[#30363d] px-4 py-2 font-jetbrains text-sm text-[#8b949e] flex items-center justify-between">
@@ -379,7 +378,6 @@ export default function Home() {
                                     </span>
                                 </div>
                             </div>
-
                             {/* Global sound toggle */}
                             <button
                                 onClick={() => {
@@ -388,8 +386,8 @@ export default function Home() {
                                 }}
                                 onMouseEnter={playHoverSound}
                                 className={`flex items-center gap-1.5 px-2 py-0.5 border ${soundEnabled
-                                        ? "border-primary-container text-primary-container bg-primary-container/10"
-                                        : "border-[#30363d] text-outline hover:border-primary-container/50 hover:text-primary-container/85"
+                                    ? "border-primary-container text-primary-container bg-primary-container/10"
+                                    : "border-[#30363d] text-outline hover:border-primary-container/50 hover:text-primary-container/85"
                                     } text-[9px] sm:text-[10px] uppercase font-extrabold tracking-wider transition-all duration-200 hover:shadow-[0_0_8px_rgba(0,255,65,0.3)] rounded-sm cursor-pointer`}
                                 title="Toggle system sound globally"
                             >
@@ -452,6 +450,7 @@ export default function Home() {
                             </span>
                             <input
                                 id="terminal-input"
+                                aria-label="Terminal command input"
                                 type="text"
                                 value={currentCmd}
                                 onChange={(e) => {

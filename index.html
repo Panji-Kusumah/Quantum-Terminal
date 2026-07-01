@@ -1,34 +1,34 @@
 <!doctype html>
 <html lang="en" class="dark">
-  <head>
+    <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>ROOT@PORTFOLIO:~#</title>
     <script>
-      window.addEventListener('error', e => {
+        window.addEventListener('error', e => {
         const msg = e.message || '';
         if (msg.includes('Script error') || msg.includes('ResizeObserver')) {
-          e.stopImmediatePropagation();
-          e.preventDefault();
+            e.stopImmediatePropagation();
+            e.preventDefault();
         }
-      }, true);
-      window.addEventListener('unhandledrejection', e => {
+        }, true);
+        window.addEventListener('unhandledrejection', e => {
         const msg = e.reason ? (e.reason.message || String(e.reason)) : '';
         if (msg.includes('Script error') || msg.includes('ResizeObserver')) {
-          e.stopImmediatePropagation();
-          e.preventDefault();
+            e.stopImmediatePropagation();
+            e.preventDefault();
         }
-      }, true);
+        }, true);
     </script>
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Orbitron:wght@400..900&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  </head>
-  <body>
+    </head>
+    <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-  </body>
+    </body>
 </html>
 

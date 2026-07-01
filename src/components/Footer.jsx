@@ -6,16 +6,16 @@ export default function Footer() {
                     © {new Date().getFullYear()} MADE WITH ❤️. ALL_RIGHTS_RESERVED.
                 </div>
                 <div className="flex flex-wrap justify-center gap-6 text-xl md:text-2xl">
-                    <a href="https://github.com/Panji-Kusumah" target="_blank" rel="noopener noreferrer" className="text-outline-variant hover:text-primary-container hover:shadow-[0px_0px_10px_#00ff41] transition-all">
+                    <a aria-label="GitHub Profile" href="https://github.com/Panji-Kusumah" target="_blank" rel="noopener noreferrer" className="text-outline-variant hover:text-primary-container hover:shadow-[0px_0px_10px_#00ff41] transition-all">
                         <i className="fa-brands fa-github"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/panji-kusumah-knzt613/" target="_blank" rel="noopener noreferrer" className="text-outline-variant hover:text-primary-container hover:shadow-[0px_0px_10px_#00ff41] transition-all">
+                    <a aria-label="LinkedIn Profile" href="https://www.linkedin.com/in/panji-kusumah-knzt613/" target="_blank" rel="noopener noreferrer" className="text-outline-variant hover:text-primary-container hover:shadow-[0px_0px_10px_#00ff41] transition-all">
                         <i className="fa-brands fa-linkedin"></i>
                     </a>
-                    <a href="#" className="text-outline-variant hover:text-primary-container hover:shadow-[0px_0px_10px_#00ff41] transition-all">
+                    <a aria-label="Twitter Profile" href="#" className="text-outline-variant hover:text-primary-container hover:shadow-[0px_0px_10px_#00ff41] transition-all">
                         <i className="fa-brands fa-x-twitter"></i>
                     </a>
-                    <a href="https://github.com/Panji-Kusumah" target="_blank" rel="noopener noreferrer" className="text-outline-variant hover:text-primary-container hover:shadow-[0px_0px_10px_#00ff41] transition-all flex items-center">
+                    <a aria-label="GitHub Link" href="https://github.com/Panji-Kusumah" target="_blank" rel="noopener noreferrer" className="text-outline-variant hover:text-primary-container hover:shadow-[0px_0px_10px_#00ff41] transition-all flex items-center">
                         <span className="text-xs tracking-widest font-jetbrains font-bold uppercase mt-1">Source_Code</span>
                     </a>
                 </div>

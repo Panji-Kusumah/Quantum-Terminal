@@ -12,7 +12,6 @@ export default function TerminalCursor({
 }) {
     const [displayedText, setDisplayedText] = useState("");
     const [internalGenerating, setInternalGenerating] = useState(true);
-
     useEffect(() => {
         if (text === undefined) {
             const timer = setTimeout(() => {
@@ -20,10 +19,8 @@ export default function TerminalCursor({
             }, 1500 + Math.random() * 800);
             return () => clearTimeout(timer);
         }
-
         setDisplayedText("");
         setInternalGenerating(true);
-
         let typeInterval = null;
         const delayTimer = setTimeout(() => {
             let i = 0;
@@ -36,7 +33,6 @@ export default function TerminalCursor({
                 }
             }, typingSpeed);
         }, startDelay);
-
         return () => {
             clearTimeout(delayTimer);
             if (typeInterval) {
@@ -44,9 +40,7 @@ export default function TerminalCursor({
             }
         };
     }, [text, typingSpeed, startDelay]);
-
     const isActive = isGenerating !== undefined ? isGenerating : internalGenerating;
-
     const cursor = (
         <motion.span
             className={cn("inline-block w-2.5 h-[1.1em] align-middle bg-primary-container", text ? "mb-0.5 ml-1" : "mx-1 -mt-0.5", cursorClassName)}
@@ -64,7 +58,6 @@ export default function TerminalCursor({
             }}
         />
     );
-
     if (text !== undefined) {
         return (
             <span className={className}>
@@ -73,6 +66,5 @@ export default function TerminalCursor({
             </span>
         );
     }
-
     return cursor;
 }
