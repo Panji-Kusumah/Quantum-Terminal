@@ -4,10 +4,19 @@ import ProjectCard from "../components/ProjectCard";
 
 const projects = [
     {
+        id: "quantum-terminal",
+        cmd: "npm run portfolio",
+        title: "Quantum_Terminal",
+        desc: "A cyberpunk-inspired developer portfolio featuring a terminal interface, interactive animations, GitHub integration, and an email contact system built with React, Tailwind CSS, and Node.js.",
+        tags: ["REACT", "TAILWIND", "NODE.JS"],
+        repo: "Panji-Kusumah/Quantum-Terminal",
+        demoUrl: "https://quantum-terminal-puce.vercel.app"
+    },
+    {
         id: "chill-movie",
         cmd: "npm run dev --chill-movie",
         title: "Chill_Movie",
-        desc: "A responsive movie discovery application built with React and Tailwind CSS. Features real-time movie data integration, dynamic search, filtering, and an intuitive user interface powered by external APIs.",
+        desc: "A responsive movie discovery application featuring real-time movie data, advanced search, filtering, and an intuitive user experience powered by React and REST APIs.",
         tags: ["REACT", "TAILWIND", "REST_API"],
         repo: "Panji-Kusumah/Chill_Movie",
         demoUrl: "https://chill-movie-tau.vercel.app"
@@ -16,19 +25,28 @@ const projects = [
         id: "movie-api",
         cmd: "npm run server",
         title: "Movie_API",
-        desc: "A RESTful API built with Express.js for movie management, supporting authentication, filtering, searching, and structured JSON responses with MySQL integration.",
+        desc: "A RESTful backend service built with Express.js, providing authentication, movie management, filtering, searching, and structured API responses with MySQL integration.",
         tags: ["NODE.JS", "EXPRESS", "MYSQL"],
         repo: "Panji-Kusumah/Movie_API",
         demoUrl: "#"
     },
     {
-        id: "quantum-terminal",
-        cmd: "npm run portfolio",
-        title: "Quantum_Terminal",
-        desc: "A hacker-inspired developer portfolio featuring a terminal interface, interactive animations, project showcase, and contact form with Node.js email integration.",
-        tags: ["REACT", "TAILWIND", "NODE.JS"],
-        repo: "Panji-Kusumah/Quantum-Terminal",
-        demoUrl: "https://quantum-terminal-puce.vercel.app"
+        id: "student-dashboard",
+        cmd: "npm run dashboard",
+        title: "Student_Dashboard",
+        desc: "A responsive student management dashboard featuring authentication, CRUD operations, role-based access, and modern data management built with React.",
+        tags: ["REACT", "JWT", "CRUD"],
+        repo: "Panji-Kusumah/Student_Dashboard",
+        demoUrl: "#"
+    },
+    {
+        id: "auth-service",
+        cmd: "npm run auth",
+        title: "Auth_Service",
+        desc: "A secure authentication service implementing JWT, password hashing, role-based authorization, and protected API endpoints using Express.js and MySQL.",
+        tags: ["JWT", "EXPRESS", "MYSQL"],
+        repo: "Panji-Kusumah/Auth_Service",
+        demoUrl: "#"
     }
 ];
 export default function Projects() {
