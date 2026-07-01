@@ -16,37 +16,19 @@ const projects = [
         id: "movie-api",
         cmd: "npm run server",
         title: "Movie_API",
-        desc: "A RESTful backend service built with Express.js, featuring authentication, filtering, search functionality, and structured API responses for movie data management.",
+        desc: "A RESTful API built with Express.js for movie management, supporting authentication, filtering, searching, and structured JSON responses with MySQL integration.",
         tags: ["NODE.JS", "EXPRESS", "MYSQL"],
         repo: "Panji-Kusumah/Movie_API",
-        demoUrl: "https://quantum-terminal-puce.vercel.app"
+        demoUrl: "#"
     },
     {
         id: "quantum-terminal",
         cmd: "npm run portfolio",
         title: "Quantum_Terminal",
-        desc: "A hacker-inspired portfolio featuring a terminal interface, interactive animations, responsive layouts, and an integrated contact system powered by Node.js.",
+        desc: "A hacker-inspired developer portfolio featuring a terminal interface, interactive animations, project showcase, and contact form with Node.js email integration.",
         tags: ["REACT", "TAILWIND", "NODE.JS"],
         repo: "Panji-Kusumah/Quantum-Terminal",
-        demoUrl: "#"
-    },
-    {
-        id: "student-dashboard",
-        cmd: "npm run dashboard",
-        title: "Student_Dashboard",
-        desc: "A modern dashboard application with authentication, CRUD operations, responsive UI components, and real-time data management for educational platforms.",
-        tags: ["REACT", "JWT", "CRUD"],
-        repo: "Panji-Kusumah/Student_Dashboard",
-        demoUrl: "#"
-    },
-    {
-        id: "auth-service",
-        cmd: "npm run auth",
-        title: "Auth_Service",
-        desc: "A secure authentication service implementing JWT, password hashing, protected routes, and role-based access control using Express.js and MySQL.",
-        tags: ["JWT", "MYSQL", "EXPRESS"],
-        repo: "Panji-Kusumah/Auth_Service",
-        demoUrl: "#"
+        demoUrl: "https://quantum-terminal-puce.vercel.app"
     }
 ];
 export default function Projects() {
