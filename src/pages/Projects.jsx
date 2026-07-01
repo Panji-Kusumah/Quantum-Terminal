@@ -7,49 +7,48 @@ const projects = [
         id: "chill-movie",
         cmd: "npm run dev --chill-movie",
         title: "Chill_Movie",
-        desc: "An elegant movie exploration and entertainment application featuring responsive visual content grids, real-time metadata rendering, and interactive sliders.",
-        tags: ["REACT", "TAILWIND", "API_INTEGRATION"],
+        desc: "A responsive movie discovery application built with React and Tailwind CSS. Features real-time movie data integration, dynamic search, filtering, and an intuitive user interface powered by external APIs.",
+        tags: ["REACT", "TAILWIND", "REST_API"],
         repo: "Panji-Kusumah/Chill_Movie",
         demoUrl: "https://chill-movie-tau.vercel.app"
     },
     {
-        id: "nethunter",
-        cmd: "bash - nethunter.sh",
-        title: "Project_NetHunter",
-        desc: "A distributed network monitoring tool designed to detect anomalous traffic patterns using advanced statistical models trained on pcap data.",
-        tags: ["PYTHON", "GOLANG", "DOCKER"],
-        repo: "Panji-Kusumah/NetHunter",
+        id: "movie-api",
+        cmd: "npm run server",
+        title: "Movie_API",
+        desc: "A RESTful backend service built with Express.js, featuring authentication, filtering, search functionality, and structured API responses for movie data management.",
+        tags: ["NODE.JS", "EXPRESS", "MYSQL"],
+        repo: "Panji-Kusumah/Movie_API",
+        demoUrl: "quantum-terminal-puce.vercel.app"
+    },
+    {
+        id: "quantum-terminal",
+        cmd: "npm run portfolio",
+        title: "Quantum_Terminal",
+        desc: "A hacker-inspired portfolio featuring a terminal interface, interactive animations, responsive layouts, and an integrated contact system powered by Node.js.",
+        tags: ["REACT", "TAILWIND", "NODE.JS"],
+        repo: "Panji-Kusumah/Quantum-Terminal",
         demoUrl: "#"
     },
     {
-        id: "cipher",
-        cmd: "zsh - cipher_ui",
-        title: "Cipher_Interface",
-        desc: "A brutalist web interface for a decentralized password manager. Implements client-side encryption and IPFS storage for zero-knowledge security.",
-        tags: ["REACT", "WASM", "IPFS"],
-        repo: "Panji-Kusumah/cipher-ui",
+        id: "student-dashboard",
+        cmd: "npm run dashboard",
+        title: "Student_Dashboard",
+        desc: "A modern dashboard application with authentication, CRUD operations, responsive UI components, and real-time data management for educational platforms.",
+        tags: ["REACT", "JWT", "CRUD"],
+        repo: "Panji-Kusumah/Student_Dashboard",
         demoUrl: "#"
     },
     {
-        id: "daemon",
-        cmd: "sh - daemon_core",
-        title: "Sys_Daemon",
-        desc: "A lightweight, multi-threaded background service written in Rust for orchestrating microservices across a cluster of edge nodes.",
-        tags: ["RUST", "GRPC", "KUBERNETES"],
-        repo: "Panji-Kusumah/sys-daemon",
-        demoUrl: "#"
-    },
-    {
-        id: "kernel",
-        cmd: "bash - kernel_patch",
-        title: "Void_Kernel",
-        desc: "Custom Linux kernel patches aimed at reducing input latency for competitive gaming environments. Includes custom CPU scheduling algorithms.",
-        tags: ["C", "ASM", "LINUX"],
-        repo: "Panji-Kusumah/void-kernel",
+        id: "auth-service",
+        cmd: "npm run auth",
+        title: "Auth_Service",
+        desc: "A secure authentication service implementing JWT, password hashing, protected routes, and role-based access control using Express.js and MySQL.",
+        tags: ["JWT", "MYSQL", "EXPRESS"],
+        repo: "Panji-Kusumah/Auth_Service",
         demoUrl: "#"
     }
 ];
-
 export default function Projects() {
     const [stats, setStats] = useState({});
     const [loading, setLoading] = useState(true);

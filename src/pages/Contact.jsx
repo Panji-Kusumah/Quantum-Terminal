@@ -173,10 +173,10 @@ export default function Contact() {
                                             <span className="text-on-surface">BANDUNG, INDONESIA</span>
                                         </li>
                                         <li>
-                                            <span className="text-outline">TECHNICAL_BIO:</span>
+                                            <span className="text-outline">STATUS:</span>
                                             <br />
                                             <span className="text-on-surface leading-relaxed block mt-1">
-                                                CODE_WITH_PURPOSE_BUILD_WITH_EXPERIENCE
+                                                AVAILABLE_FOR_WORK
                                             </span>
                                         </li>
                                     </ul>

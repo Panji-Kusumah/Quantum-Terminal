@@ -45,10 +45,10 @@ export default function About() {
                                 <span className="text-primary-container uppercase font-bold tracking-widest">ID:</span> <span>PANJI_KUSUMAH</span>
                             </div>
                             <div className="flex justify-between border-b border-outline-variant pb-2">
-                                <span className="text-primary-container uppercase font-bold tracking-widest">Role:</span> <span>FULL_STACK_ENGINER</span>
+                                <span className="text-primary-container uppercase font-bold tracking-widest">Role:</span> <span>FULL_STACK_DEVELOPER</span>
                             </div>
                             <div className="flex justify-between border-b border-outline-variant pb-2">
-                                <span className="text-primary-container uppercase font-bold tracking-widest">Status:</span> <span className="animate-pulse text-primary-container font-bold">ONLINE</span>
+                                <span className="text-primary-container uppercase font-bold tracking-widest">Status:</span> <span className="animate-pulse text-primary-container font-bold">OPEN_TO_WORK</span>
                             </div>
                             <div className="flex justify-between border-b border-outline-variant pb-2">
                                 <span className="text-primary-container uppercase font-bold tracking-widest">Loc:</span> <span>BANDUNG</span>
@@ -80,36 +80,64 @@ export default function About() {
                 <div className="col-span-1 lg:col-span-8 flex flex-col gap-8">
                     {/* The Journey (Timeline) */}
                     <section className="border border-outline-variant bg-surface-container-low p-6 relative">
-                        <div className="absolute top-0 left-0 bg-outline-variant text-surface px-2 py-1 font-jetbrains text-xs">timeline.log</div>
-                        <h2 className="font-orbitron font-bold text-3xl mt-6 mb-8 text-primary-container tracking-wider">&gt; THE_JOURNEY</h2>
+                        <div className="absolute top-0 left-0 bg-outline-variant text-surface px-2 py-1 font-jetbrains text-xs">
+                            timeline.log
+                        </div>
+                        <h2 className="font-orbitron font-bold text-3xl mt-6 mb-8 text-primary-container tracking-wider">
+                            &gt; THE_JOURNEY
+                        </h2>
                         <div className="relative border-l border-primary-container ml-4 space-y-8 pb-4">
                             {/* Timeline Item 1 */}
                             <div className="relative pl-8">
                                 <div className="absolute w-3 h-3 bg-primary-container -left-1.5 top-1 shadow-[0px_0px_5px_#00ff41]"></div>
-                                <div className="font-jetbrains text-xs text-surface-tint mb-1 uppercase tracking-widest font-bold">[CURRENT_STATE]</div>
-                                <h3 className="font-orbitron text-xl text-primary-container mb-2 font-bold tracking-wide">Lead Architect</h3>
-                                <p className="font-jetbrains text-sm text-on-surface-variant leading-relaxed">Designing distributed systems, leading technical squads, and ensuring enterprise-grade security protocols. Focusing on microservices and cloud-native architecture.</p>
+                                <div className="font-jetbrains text-xs text-surface-tint mb-1 uppercase tracking-widest font-bold">
+                                    [CURRENT_STATE]
+                                </div>
+                                <h3 className="font-orbitron text-xl text-primary-container mb-2 font-bold tracking-wide">
+                                    Data Analyst & Property Consultant
+                                </h3>
+                                <p className="font-jetbrains text-sm text-on-surface-variant leading-relaxed">
+                                    Currently working as a Data Analyst while also helping clients as a Property Consultant. Developing analytical thinking, communication, and problem-solving skills while transitioning into Full-Stack Development.
+                                </p>
                             </div>
                             {/* Timeline Item 2 */}
                             <div className="relative pl-8">
                                 <div className="absolute w-3 h-3 border border-primary-container bg-surface -left-1.5 top-1"></div>
-                                <div className="font-jetbrains text-xs text-outline-variant mb-1 uppercase tracking-widest font-bold">[ITERATION_03]</div>
-                                <h3 className="font-orbitron text-xl text-primary-container mb-2 font-bold tracking-wide">Senior Full-Stack Engineer</h3>
-                                <p className="font-jetbrains text-sm text-on-surface-variant leading-relaxed">Spearheaded the migration of legacy monoliths to modern scalable frameworks. Optimized database queries reducing latency by 40%.</p>
+                                <div className="font-jetbrains text-xs text-outline-variant mb-1 uppercase tracking-widest font-bold">
+                                    [2026]
+                                </div>
+                                <h3 className="font-orbitron text-xl text-primary-container mb-2 font-bold tracking-wide">
+                                    Full-Stack Developer Bootcamp
+                                </h3>
+                                <p className="font-jetbrains text-sm text-on-surface-variant leading-relaxed">
+                                    Started an intensive Full-Stack Developer Bootcamp at Harisenin, focusing on modern web development with React, Node.js, Express, MySQL, and real-world software engineering practices.
+                                </p>
                             </div>
                             {/* Timeline Item 3 */}
                             <div className="relative pl-8">
                                 <div className="absolute w-3 h-3 border border-primary-container bg-surface -left-1.5 top-1"></div>
-                                <div className="font-jetbrains text-xs text-outline-variant mb-1 uppercase tracking-widest font-bold">[ITERATION_02]</div>
-                                <h3 className="font-orbitron text-xl text-primary-container mb-2 font-bold tracking-wide">Backend Developer</h3>
-                                <p className="font-jetbrains text-sm text-on-surface-variant leading-relaxed">Built robust APIs, handled server deployments, and managed automated CI/CD pipelines.</p>
+                                <div className="font-jetbrains text-xs text-outline-variant mb-1 uppercase tracking-widest font-bold">
+                                    [2018-2021]
+                                </div>
+                                <h3 className="font-orbitron text-xl text-primary-container mb-2 font-bold tracking-wide">
+                                    Master's in Management Information Systems
+                                </h3>
+                                <p className="font-jetbrains text-sm text-on-surface-variant leading-relaxed">
+                                    Completed a Master's degree focused on information systems, business processes, technology strategy, and data-driven decision making.
+                                </p>
                             </div>
                             {/* Timeline Item 4 */}
                             <div className="relative pl-8">
                                 <div className="absolute w-3 h-3 border border-primary-container bg-surface -left-1.5 top-1"></div>
-                                <div className="font-jetbrains text-xs text-outline-variant mb-1 uppercase tracking-widest font-bold">[ORIGIN_POINT]</div>
-                                <h3 className="font-orbitron text-xl text-primary-container mb-2 font-bold tracking-wide">Freelance Developer</h3>
-                                <p className="font-jetbrains text-sm text-on-surface-variant leading-relaxed">Built custom web solutions and automation scripts for international clients, establishing technical foundations.</p>
+                                <div className="font-jetbrains text-xs text-outline-variant mb-1 uppercase tracking-widest font-bold">
+                                    [ORIGIN_POINT]
+                                </div>
+                                <h3 className="font-orbitron text-xl text-primary-container mb-2 font-bold tracking-wide">
+                                    Passion for Technology
+                                </h3>
+                                <p className="font-jetbrains text-sm text-on-surface-variant leading-relaxed">
+                                    Started exploring programming and software development through self-learning, gradually building projects and continuously improving technical skills.
+                                </p>
                             </div>
                         </div>
                     </section>
